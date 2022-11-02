@@ -24,7 +24,8 @@ namespace ExcerciseQueue221102
         }
         public override string ToString()
         {
-            return $"ID : {ID} \nName : {Name}\nRole : {Role}\nDisease : {DownWithTheSickness}\nHas a recipe : {HasRecipe}";
+            return $"ID : {ID} \nName : {Name}\nRole : {Role}\nDisease : {DownWithTheSickness}\nHas a recipe : {HasRecipe}" +
+                $"\nDay of entry : {RegIn}\nDay discharged : {RegOut}";
         }
 
     }
